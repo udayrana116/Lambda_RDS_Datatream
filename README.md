@@ -1,4 +1,4 @@
-# Lambda_RDS_Datatream
+# Lambda_RDS_Data Stream
 ETL pipeline to use Amazon EventBridge schedule Lambda task, pulling API data and loading to MySQL RDS.
 ![Lambda_RDS_Datatream](https://github.com/user-attachments/assets/f46da575-5f26-4777-8223-64b84f080c34)
 
