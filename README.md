@@ -10,7 +10,7 @@ ETL pipeline to use Amazon EventBridge schedule Lambda task, pulling API data an
 5. Create username and password and kleep a note of them.
 6. In the Inbound and Outbound traffic, allow all traffic for your computer IP address.
 7. Take the RDS info from the database and enter it in your local MySQL Workbench to setup the connection.
-8. Once connected, create a new databse and provide the database the name of your choice..
+8. Once connected, create a new databse and provide the database the name of your choice.
 
 ## Lambda
 1. Open Lambda and create a new function.
