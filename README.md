@@ -24,11 +24,12 @@ ETL pipeline to use Amazon EventBridge schedule Lambda task, pulling API data an
 6. pip install these libraries in a python environment and upload it in the Layers section of Lambda.
    FIles in the Layers folder can also be used for upload.
    This link is helpful to understand it:-
+   
    https://www.youtube.com/watch?v=grRW1Z_C9vw&ab_channel=TechwithHitch
-7. Got to the Configuration tab in the fuction and look for RDS databases.
-8. Select "Connect to RDS database" and select the database we just creted.
-9. In the code change the bucket name adn database connection info as per your choice.
-10. To test the connection and data output, create a Test eventy an run this.
+8. Got to the Configuration tab in the fuction and look for RDS databases.
+9. Select "Connect to RDS database" and select the database we just creted.
+10. In the code change the bucket name adn database connection info as per your choice.
+11. To test the connection and data output, create a Test eventy an run this.
 
 ## Amazon EventBridge
 1. To schedule this task open Amazon EventBridge.
