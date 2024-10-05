@@ -2,8 +2,6 @@
 ETL pipeline to use Amazon EventBridge schedule Lambda task, pulling API data and loading to MySQL RDS.
 ![Lambda_RDS_Datatream](https://github.com/user-attachments/assets/f46da575-5f26-4777-8223-64b84f080c34)
 
-
-
 ## MySQL RDS
 1. Open Amazon RDS and in the Databases section select "Create database".
 2. Choose "Easy Create" and "MySQL" in configuration.
@@ -33,6 +31,8 @@ ETL pipeline to use Amazon EventBridge schedule Lambda task, pulling API data an
 10. To test the connection and data output, create a Test eventy an run this.
 
 ## Amazon EventBridge
-1. To schedule this task 
-
-   
+1. To schedule this task open Amazon EventBridge.
+2. Create schedule using "Eventbridge Schedule".
+3. Give it some name and description.
+4. Select "Recurring schedule" under Schedule pattern.
+5. And then based on your prefernce you can schedule the task.
